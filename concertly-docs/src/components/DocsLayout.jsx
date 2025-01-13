@@ -8,8 +8,7 @@ import rehypeHighlight from 'rehype-highlight';
 const navItems = {
   'Getting Started': {
     'Introduction': 'intro',
-    'Quick Start': 'quickstart',
-    'Installation': 'installation'
+    'Quick Start': 'quickstart'
   },
   'API Reference': {
     'Overview': 'api-overview',
