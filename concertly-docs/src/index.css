@@ -1,0 +1,25 @@
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+
+/* Custom styles for code highlighting */
+pre {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #1f2937;
+  color: white;
+  overflow-x: auto;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+}
+
+/* Style inline code differently from code blocks */
+:not(pre) > code {
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
